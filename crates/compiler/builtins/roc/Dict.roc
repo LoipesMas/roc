@@ -617,6 +617,7 @@ keepShared = \xs, ys ->
                 when get ys k is
                     Ok yv if v == yv ->
                         insert state k v
+
                     _ ->
                         state
             )
